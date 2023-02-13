@@ -8,4 +8,7 @@ if (m < 0 || (m === 0 && d < 0)) {
 };
 if (y < 18) {
     return ('The user is minor')
+};
+if (y = 18 || y > 18) {
+    return ('The user is major')
 }
